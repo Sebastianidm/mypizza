@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .navbar {
+    padding: 20px;
+    font-family: 'Cabin Condensed', sans-serif;
+  }
+  
+  .Container {
+    justify-content: center;
+  }

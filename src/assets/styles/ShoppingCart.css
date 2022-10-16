@@ -1,0 +1,57 @@
+.contenedor h3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: bold;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 150px;
+  }
+  
+  .contenedor-seleccion {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: wrap;
+    margin: 20px 0 0 150px;
+  }
+  
+  .lista-precio {
+    display: flex;
+    width: 75%;
+  }
+  
+  img.img-cart {
+    max-height: 4rem;
+    max-width: 6rem;
+    border-radius: 3px;
+  }
+  
+  .botones {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-pedido {
+    margin: 12px 100px 0 20px;
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .info-precio {
+    margin: 12px 100px 0 20px;
+    font-size: 20px;
+    color: green;
+    text-align: right;
+  }
+  
+  .contador {
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .contenedor-total {
+    font-size: 30px;
+    margin: 30px 0 0 150px;
+    text-align: left;
+    font-weight: bold;
+  }

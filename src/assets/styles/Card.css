@@ -1,0 +1,41 @@
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+.card {
+    margin: 25px 25px;
+    font-family: 'Cabin Condensed', sans-serif;
+  }
+  
+  .d-flex {
+    justify-content: space-between;
+  }
+  
+  h5.card-title {
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  h3.card-title {
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  
+  ul {
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  .btn-success {
+    background-color: #0C0807;
+    border: 0px;
+  }
+  
+  .btn-warning {
+    background-color: #F31111 ;
+    border: 0px;
+  }

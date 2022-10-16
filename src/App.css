@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: 'Cabin Condensed', sans-serif;
+  text-align: center;
+}
+
+.bg-main {
+  background-color: #030202;
+}
