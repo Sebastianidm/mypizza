@@ -1,4 +1,4 @@
-import "../assets/styles/NavBar.css";
+import "../assets/styles/Navbar.css";
 import { Container, Navbar } from "react-bootstrap";
 
 import { useContext } from "react";
