@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { NavLink } from 'react-router-dom';
 import PizzaContext from '../context/PizzaContext';
 
-function Navbar() {
+function Navbars() {
   const { totalPedido } = useContext(PizzaContext);
   let precio = totalPedido.reduce((a, { count, price }) => a + price * count, 0);
 
@@ -29,4 +29,4 @@ function Navbar() {
   );
 };
 
-export default Navbar;
+export default Navbars;
