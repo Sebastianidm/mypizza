@@ -7,8 +7,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //components
-import Navbar from "./components/Navbar";
-
+import Navbar from "./components/Navbar"
 //context
 import PizzaContext from "./context/PizzaContext";
 
@@ -61,7 +60,7 @@ function App() {
         }}
       >
         <BrowserRouter>
-          <NavBar />
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/pizza/:id" element={<Details />} />
