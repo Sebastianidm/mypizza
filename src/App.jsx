@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //components
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 //context
 import PizzaContext from "./context/PizzaContext";
